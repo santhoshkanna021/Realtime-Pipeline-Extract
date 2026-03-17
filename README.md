@@ -111,4 +111,4 @@ python scripts/load_to_db.py
 Santhoshkanna
 Aspiring Data Engineer | Python | SQL | AWS | Data Analytics
 
-LinkedIn: [www.linkedin.com/in/santhoshkanna-r-b71391318](http://www.linkedin.com/in/santhoshkanna-r-b71391318)
+LinkedIn: [View Linkedin](http://www.linkedin.com/in/santhoshkanna-r-b71391318)
