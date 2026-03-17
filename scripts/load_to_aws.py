@@ -19,15 +19,15 @@ try:
     engine = create_engine(
         f"postgresql+psycopg2://{username}:{password}@{host}:{port}/{database}"
     )
-    print("✅ Successfully connected to AWS RDS...")
+    print("Successfully connected to AWS RDS...")
 except Exception as e:
-    print("❌ Connection failed:", e)
+    print("Connection failed:", e)
     exit(1)
 
 # ----------------- Load Data into Database ----------------- #
 try:
     df = pd.read_csv("scripts/data/clean_dataset.csv") 
     df.to_sql("quotes_table", engine, if_exists="replace", index=False)
-    print("✅ Data uploaded successfully to AWS RDS!")
+    print("Data uploaded successfully to AWS RDS!")
 except Exception as e:
-    print("❌ Failed to upload data:", e)
+    print("Failed to upload data:", e)
